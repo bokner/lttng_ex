@@ -1,0 +1,6 @@
+%{
+  "erlang_term": {:hex, :erlang_term, "2.0.5", "c4968c40a7717bbb67d67e6e9531fdd5e65b94693ce086b36e5028e23e798f64", [:rebar3], [], "hexpm", "4f51d0d876465119e182558b5d8f4fea3dead25973d3399ca73d05bd6497157a"},
+  "redbug": {:git, "git@github.com:bokner/redbug.git", "4334c2a26e7be114e892e003145eb737d25082ce", []},
+  "replbug": {:git, "https://github.com/bokner/replbug.git", "357c4ab6ffb9ab8274c5ea0a65e2b1226b7bf01c", []},
+  "rexbug": {:hex, :rexbug, "1.0.6", "024071c67d970151fbdc06f299faf8db3e1b2ac759a28623a9cc80a517fc74f2", [:mix], [{:mix_test_watch, ">= 0.5.0", [hex: :mix_test_watch, repo: "hexpm", optional: true]}, {:redbug, "~> 1.2", [hex: :redbug, repo: "hexpm", optional: false]}], "hexpm", "148ea724979413e9fd84ca3b4bb5d2d8b840ac481adfd645f5846fda409a642c"},
+}
